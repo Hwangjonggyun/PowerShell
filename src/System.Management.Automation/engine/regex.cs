@@ -3,15 +3,7 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Buffers;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Management.Automation.Internal;
-using System.Runtime.Serialization;
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation

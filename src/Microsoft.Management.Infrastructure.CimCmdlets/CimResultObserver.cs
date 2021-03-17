@@ -3,9 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.Globalization;
-using System.Management.Automation;
 
 #endregion
 

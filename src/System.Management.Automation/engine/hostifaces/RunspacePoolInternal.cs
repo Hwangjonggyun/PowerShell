@@ -1,12 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Management.Automation.Internal;
-using System.Management.Automation.Security;
 using System.Management.Automation.Tracing;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 using PSHost = System.Management.Automation.Host.PSHost;

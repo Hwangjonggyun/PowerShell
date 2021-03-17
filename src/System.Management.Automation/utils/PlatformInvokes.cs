@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
-using System.Runtime.InteropServices;
-
-using Microsoft.Win32.SafeHandles;
-
 namespace System.Management.Automation
 {
     internal static class PlatformInvokes

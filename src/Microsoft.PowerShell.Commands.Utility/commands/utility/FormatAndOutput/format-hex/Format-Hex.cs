@@ -1,14 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Text;
 // Once Serialization is available on CoreCLR: using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Microsoft.PowerShell.Commands

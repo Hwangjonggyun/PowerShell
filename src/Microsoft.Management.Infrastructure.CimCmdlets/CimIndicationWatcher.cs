@@ -3,9 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.ComponentModel;
-using System.Management.Automation;
 
 #endregion
 

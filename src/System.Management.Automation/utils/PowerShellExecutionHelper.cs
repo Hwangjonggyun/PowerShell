@@ -1,9 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Management.Automation.Runspaces;
 
 namespace System.Management.Automation

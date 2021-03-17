@@ -1,10 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Diagnostics;
 using System.Management.Automation;
-using System.Runtime.InteropServices;
 
 namespace Microsoft.PowerShell
 {

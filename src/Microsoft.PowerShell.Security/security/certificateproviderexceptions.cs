@@ -3,8 +3,6 @@
 
 #if !UNIX
 
-using System;
-using System.Runtime.Serialization;
 
 namespace Microsoft.PowerShell.Commands
 {

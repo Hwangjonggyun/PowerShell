@@ -1,20 +1,11 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Internal.Host;
 using System.Management.Automation.Tracing;
 #if !UNIX
-using System.Security.Principal;
 #endif
-using System.Threading;
-using Microsoft.PowerShell.Commands;
-using Microsoft.Win32;
-
-using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation.Runspaces
 {

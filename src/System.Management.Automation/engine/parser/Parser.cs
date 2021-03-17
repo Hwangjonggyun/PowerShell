@@ -1,23 +1,13 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics.Tracing;
-using System.Globalization;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
 using Dsc = Microsoft.PowerShell.DesiredStateConfiguration.Internal;
 
 namespace System.Management.Automation.Language
 {
-    using KeyValuePair = Tuple<ExpressionAst, StatementAst>;
     using IfClause = Tuple<PipelineBaseAst, StatementBlockAst>;
+    using KeyValuePair = Tuple<ExpressionAst, StatementAst>;
     using SwitchClause = Tuple<ExpressionAst, StatementBlockAst>;
 
     internal enum ParseMode
@@ -3005,7 +2995,7 @@ namespace System.Management.Automation.Language
 
                                 p.AddCommand(new CmdletInfo("Get-Module", typeof(Microsoft.PowerShell.Commands.GetModuleCommand)));
                                 p.AddParameter("Name", "PSDesiredStateConfiguration");
-                                
+
                                 bool prev3IsLoaded = false;
                                 foreach (PSModuleInfo moduleInfo in p.Invoke<PSModuleInfo>())
                                 {
@@ -3017,7 +3007,7 @@ namespace System.Management.Automation.Language
                                 }
 
                                 p.Commands.Clear();
-                                
+
                                 useCrossPlatformSchema = !prev3IsLoaded;
 
                                 if (useCrossPlatformSchema)

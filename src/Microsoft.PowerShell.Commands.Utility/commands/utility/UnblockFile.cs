@@ -3,17 +3,11 @@
 
 #region Using directives
 
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics.CodeAnalysis;
 #if UNIX
 using System.Globalization;
 using System.Management.Automation;
 using System.Runtime.InteropServices;
 #else
-using System.Management.Automation;
-using System.Management.Automation.Internal;
 #endif
 
 #endregion

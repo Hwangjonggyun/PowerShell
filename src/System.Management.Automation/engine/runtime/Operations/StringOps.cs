@@ -1,7 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Globalization;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
 using System.Management.Automation.Runspaces;
@@ -10,8 +9,6 @@ using System.Management.Automation.Runspaces;
 
 namespace System.Management.Automation
 {
-    using Dbg = Diagnostics;
-
     internal static class StringOps
     {
         internal static string Add(string lhs, string rhs)

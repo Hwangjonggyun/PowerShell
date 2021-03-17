@@ -14,15 +14,9 @@
  * ***************************************************************************/
 
 #if !CLR2
-using System.Linq.Expressions;
 #else
 using Microsoft.Scripting.Ast;
 #endif
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Runtime.CompilerServices;
-using System.Security;
-using System.Threading;
 
 //using Microsoft.Scripting.Generation;
 

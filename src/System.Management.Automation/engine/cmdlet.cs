@@ -3,14 +3,7 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Collections;
-using System.Diagnostics.CodeAnalysis;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Reflection;
-using System.Resources;
 using System.Management.Automation.Internal;
-using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation
 {

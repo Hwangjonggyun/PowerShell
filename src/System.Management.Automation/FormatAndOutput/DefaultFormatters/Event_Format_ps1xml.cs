@@ -1,8 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-
 namespace System.Management.Automation.Runspaces
 {
     internal sealed class Event_Format_Ps1Xml

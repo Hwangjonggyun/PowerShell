@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Management.Automation.Language;
-using Xunit;
-
 namespace PSTests.Parallel
 {
     internal class MyICustomAstVisitor2 : ICustomAstVisitor2

@@ -3,8 +3,6 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Collections;
-using System.Collections.Generic;
 using System.Management.Automation.Host;
 
 namespace System.Management.Automation

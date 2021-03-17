@@ -3,7 +3,6 @@
 
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
-using System.Runtime.Serialization;
 
 namespace System.Management.Automation
 {

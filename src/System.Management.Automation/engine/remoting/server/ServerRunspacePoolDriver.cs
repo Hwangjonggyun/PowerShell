@@ -1,14 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Host;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Remoting;
@@ -16,10 +8,7 @@ using System.Management.Automation.Remoting.Server;
 using System.Management.Automation.Runspaces;
 using System.Management.Automation.Security;
 #if !UNIX
-using System.Security.Principal;
 #endif
-using System.Threading;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation

@@ -17,11 +17,7 @@
 #else
 using Microsoft.Scripting.Ast;
 #endif
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.Management.Automation.Language;
-using System.Reflection;
-using System.Runtime.CompilerServices;
 
 namespace System.Management.Automation.Interpreter
 {

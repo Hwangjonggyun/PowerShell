@@ -1,18 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Language;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Runtime.ExceptionServices;
-using System.Text;
-
-using Microsoft.PowerShell.Commands;
 
 namespace System.Management.Automation
 {

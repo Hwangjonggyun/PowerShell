@@ -5,9 +5,6 @@
 
 namespace System.Management.Automation.Tracing
 {
-    using System;
-    using System.Diagnostics.Eventing;
-
     /// <summary>
     ///     An object that can be used to manage the ETW activity ID of the current thread.
     /// </summary>

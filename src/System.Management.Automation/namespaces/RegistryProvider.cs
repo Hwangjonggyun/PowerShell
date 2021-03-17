@@ -3,16 +3,11 @@
 
 #if !UNIX
 
-using System;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Text;
-using Microsoft.Win32;
+using Microsoft.PowerShell.Commands.Internal;
 using System.Management.Automation;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Provider;
 using Dbg = System.Management.Automation;
-using Microsoft.PowerShell.Commands.Internal;
 
 namespace Microsoft.PowerShell.Commands
 {

@@ -1,9 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Specialized;
-using System.Diagnostics;
 using System.Management.Automation.Internal;
 
 namespace Microsoft.PowerShell.Commands.Internal.Format

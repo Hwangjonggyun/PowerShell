@@ -3,12 +3,6 @@
 
 #pragma warning disable 1634, 1691
 
-using System;
-using System.ComponentModel;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Runtime.InteropServices;
-
 using Dbg = System.Management.Automation;
 
 namespace Microsoft.PowerShell.Commands

@@ -2,8 +2,6 @@
 // Licensed under the MIT License.
 
 #if !UNIX
-using System.Diagnostics.CodeAnalysis;
-using System.Diagnostics.Eventing;
 
 namespace System.Management.Automation.Tracing
 {

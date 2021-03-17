@@ -1,14 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Management.Automation;
-using System.Net.Http;
-using System.Text;
-using System.Text.RegularExpressions;
-
 namespace Microsoft.PowerShell.Commands
 {
     /// <summary>

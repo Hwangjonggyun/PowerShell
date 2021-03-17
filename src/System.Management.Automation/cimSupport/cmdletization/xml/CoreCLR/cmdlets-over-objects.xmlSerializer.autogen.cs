@@ -15,7 +15,7 @@ namespace Microsoft.PowerShell.Cmdletization.Xml
 {
     internal class XmlSerializationReader1
     {
-        #region Copy_From_XmlSerializationReader
+#region Copy_From_XmlSerializationReader
 
         // The fields, properties and methods in this section are copied from XmlSerializationReader with
         // some necessary adjustment:
@@ -26,7 +26,7 @@ namespace Microsoft.PowerShell.Cmdletization.Xml
         //  3. ReadTypedPrimitive(XmlQualifiedName type) and ReadTypedNull(XmlQualifiedName type). See the comments
         //     in them for more information.
 
-        #region "Constructor"
+#region "Constructor"
 
         internal XmlSerializationReader1(XmlReader reader)
         {
@@ -56,9 +56,9 @@ namespace Microsoft.PowerShell.Cmdletization.Xml
             InitIDs();
         }
 
-        #endregion "Constructor"
+#endregion "Constructor"
 
-        #region "Field Definition"
+#region "Field Definition"
 
         XmlReader _r;
         XmlDocument _d;
@@ -141,9 +141,9 @@ namespace Microsoft.PowerShell.Cmdletization.Xml
 
         static object s_primitiveTypedObject = new object();
 
-        #endregion "Field Definition"
+#endregion "Field Definition"
 
-        #region "Property Definition"
+#region "Property Definition"
 
         internal XmlReader Reader
         {
@@ -194,9 +194,9 @@ namespace Microsoft.PowerShell.Cmdletization.Xml
             }
         }
 
-        #endregion "Property Definition"
+#endregion "Property Definition"
 
-        #region "Method Definition"
+#region "Method Definition"
 
         internal void InitPrimitiveIDs()
         {
@@ -537,9 +537,9 @@ namespace Microsoft.PowerShell.Cmdletization.Xml
             return null;
         }
 
-        #endregion "Method Definition"
+#endregion "Method Definition"
 
-        #endregion Copy_From_XmlSerializationReader
+#endregion Copy_From_XmlSerializationReader
 
         public object Read50_PowerShellMetadata()
         {

@@ -1,14 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Management.Automation.Provider;
-
 using Dbg = System.Management.Automation;
 
 namespace Microsoft.PowerShell.Commands

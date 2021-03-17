@@ -3,10 +3,6 @@
 
 #if !UNIX
 
-using System;
-using System.Collections.ObjectModel;
-using System.IO;
-using System.Management.Automation;
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace Microsoft.PowerShell.Commands

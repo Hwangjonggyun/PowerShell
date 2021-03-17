@@ -4,12 +4,9 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56523
 
-using Dbg = System.Management.Automation;
-using System.IO;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Security;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
+using Dbg = System.Management.Automation;
 using DWORD = System.UInt32;
 
 namespace System.Management.Automation

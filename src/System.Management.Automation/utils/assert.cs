@@ -10,9 +10,6 @@
 // nor ASSERTIONS_TRACE is defined.
 #define DEBUG
 
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Text;
 
 namespace System.Management.Automation
 {

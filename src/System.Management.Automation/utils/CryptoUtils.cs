@@ -1,16 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Remoting;
-using System.Runtime.InteropServices;
-using System.Runtime.Serialization;
-using System.Security;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

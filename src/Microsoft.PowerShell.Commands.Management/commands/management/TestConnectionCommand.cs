@@ -3,16 +3,6 @@
 
 #nullable enable
 
-using System;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Net;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Microsoft.PowerShell.Commands
 {

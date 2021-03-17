@@ -2,7 +2,6 @@
 // Licensed under the MIT License.
 
 using System.Management.Automation;
-using System.Text;
 
 // TODO/FIXME: move this to Microsoft.PowerShell.Cim namespace (and move in source depot folder as well)
 

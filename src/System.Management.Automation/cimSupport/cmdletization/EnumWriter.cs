@@ -1,13 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Globalization;
-using System.Management.Automation;
-using System.Reflection;
-using System.Reflection.Emit;
-
 using Microsoft.PowerShell.Cmdletization.Xml;
+using System.Management.Automation;
 
 namespace Microsoft.PowerShell.Cmdletization
 {

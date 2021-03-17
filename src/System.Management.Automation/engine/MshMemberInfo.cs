@@ -1,21 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Linq;
+using Microsoft.PowerShell;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Interpreter;
 using System.Management.Automation.Language;
-using System.Reflection;
-using System.Text;
-
-using Microsoft.PowerShell;
 using TypeTable = System.Management.Automation.Runspaces.TypeTable;
 
 #pragma warning disable 1634, 1691 // Stops compiler from warning about unknown warnings

@@ -3,7 +3,6 @@
 
 using System.Management.Automation.Internal;
 using System.Management.Automation.Provider;
-using System.Xml;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

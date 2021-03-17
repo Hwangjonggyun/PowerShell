@@ -1,24 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Data;
-using System.Dynamic;
-using System.Globalization;
-using System.Linq;
-using System.Linq.Expressions;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Xml;
 
 namespace System.Management.Automation.Language
 {
@@ -27,12 +11,15 @@ namespace System.Management.Automation.Language
     // Item3 - static (true) or instance (false)
     // Item4 - enumerating (true) or not (false)
     using PSGetMemberBinderKeyType = Tuple<string, Type, bool, bool>;
-
-    // Item1 - member name
-    // Item2 - class containing dynamic site (for protected/private member access)
-    // Item3 - enumerating (true) or not (false)
-    using PSSetMemberBinderKeyType = Tuple<string, Type, bool>;
-
+    // Item1 - class containing dynamic site (for protected/private member access)
+    // Item2 - static (true) or instance (false)
+    using PSGetOrSetDynamicMemberBinderKeyType = Tuple<Type, bool>;
+    // Item1 - callinfo (# of args and (not used) named arguments)
+    // Item2 - invocation constraints (casts used in the invocation expression used to guide overload resolution)
+    // Item3 - property setter (true) or not (false)
+    // Item4 - static (true) or instance (false)
+    // Item5 - class containing dynamic site (for protected/private member access)
+    using PSInvokeDynamicMemberBinderKeyType = Tuple<CallInfo, PSMethodInvocationConstraints, bool, bool, Type>;
     // Item1 - member name
     // Item2 - callinfo (# of args and (not used) named arguments)
     // Item3 - property setter (true) or not (false)
@@ -41,17 +28,10 @@ namespace System.Management.Automation.Language
     // Item6 - static (true) or instance (false)
     // Item7 - class containing dynamic site (for protected/private member access)
     using PSInvokeMemberBinderKeyType = Tuple<string, CallInfo, bool, bool, PSMethodInvocationConstraints, bool, Type>;
-
-    // Item1 - callinfo (# of args and (not used) named arguments)
-    // Item2 - invocation constraints (casts used in the invocation expression used to guide overload resolution)
-    // Item3 - property setter (true) or not (false)
-    // Item4 - static (true) or instance (false)
-    // Item5 - class containing dynamic site (for protected/private member access)
-    using PSInvokeDynamicMemberBinderKeyType = Tuple<CallInfo, PSMethodInvocationConstraints, bool, bool, Type>;
-
-    // Item1 - class containing dynamic site (for protected/private member access)
-    // Item2 - static (true) or instance (false)
-    using PSGetOrSetDynamicMemberBinderKeyType = Tuple<Type, bool>;
+    // Item1 - member name
+    // Item2 - class containing dynamic site (for protected/private member access)
+    // Item3 - enumerating (true) or not (false)
+    using PSSetMemberBinderKeyType = Tuple<string, Type, bool>;
 
     /// <summary>
     /// Extension methods for DynamicMetaObject.  Some of these extensions help handle PSObject, both in terms of

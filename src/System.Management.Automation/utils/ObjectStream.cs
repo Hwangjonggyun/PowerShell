@@ -3,11 +3,6 @@
 
 namespace System.Management.Automation.Internal
 {
-    using System;
-    using System.Threading;
-    using System.Collections;
-    using System.Collections.Generic;
-    using System.Collections.ObjectModel;
     using System.Management.Automation.Runspaces;
 
 #pragma warning disable 1634, 1691 // Stops compiler from warning about unknown warnings

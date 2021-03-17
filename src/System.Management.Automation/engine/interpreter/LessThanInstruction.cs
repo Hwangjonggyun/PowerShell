@@ -13,8 +13,6 @@
  *
  * ***************************************************************************/
 
-using System.Diagnostics;
-
 namespace System.Management.Automation.Interpreter
 {
     internal abstract class LessThanInstruction : Instruction

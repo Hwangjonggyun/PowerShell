@@ -1,9 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Internal;
 
 /*

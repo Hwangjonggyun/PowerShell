@@ -3,18 +3,7 @@
 
 #region Using directives
 
-using System;
-using System.Collections;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Management.Automation.Language;
-using System.Management.Automation.Security;
-using System.Reflection;
-using System.Runtime.InteropServices;
 #if !UNIX
-using System.Threading;
 #endif
 
 using Dbg = System.Management.Automation.Diagnostics;
@@ -213,7 +202,7 @@ namespace Microsoft.PowerShell.Commands
                                     targetObject: null));
                         }
 
-                    break;
+                        break;
                 }
 
                 // WinRT does not support creating instances of attribute & delegate WinRT types.

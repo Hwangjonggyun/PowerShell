@@ -1,9 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.ComponentModel;
 using System.Management.Automation.Internal;
-using System.Security.Cryptography.X509Certificates;
 
 using DWORD = System.UInt32;
 

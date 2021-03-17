@@ -2,9 +2,6 @@
 // Licensed under the MIT License.
 
 using System.Diagnostics.Eventing.Reader;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Text;
 
 namespace System.Diagnostics.Eventing
 {

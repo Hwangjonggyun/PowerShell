@@ -3,8 +3,6 @@
 
 #nullable enable
 
-using System.Management.Automation;
-using System.Management.Automation.Runspaces;
 
 namespace Microsoft.PowerShell
 {

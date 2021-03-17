@@ -3,11 +3,6 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Diagnostics.CodeAnalysis;
-using System.Net;
-using System.Security;
-using System.Runtime.Serialization;
-using System.Security.Cryptography;
 using Microsoft.PowerShell;
 
 // FxCop suppressions for resource strings:

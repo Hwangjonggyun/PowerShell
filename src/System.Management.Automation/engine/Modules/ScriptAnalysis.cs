@@ -1,13 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
 using System.Management.Automation.Language;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace System.Management.Automation
 {

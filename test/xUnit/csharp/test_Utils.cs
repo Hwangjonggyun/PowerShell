@@ -1,16 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Specialized;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Threading;
-using System.Reflection;
-using Microsoft.PowerShell.Commands;
-using Xunit;
-
 namespace PSTests.Parallel
 {
     public static class UtilsTests

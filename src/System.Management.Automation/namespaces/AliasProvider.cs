@@ -1,8 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.ObjectModel;
 using System.Management.Automation;
 using System.Management.Automation.Provider;
 

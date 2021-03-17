@@ -3,8 +3,6 @@
 
 #nullable enable
 
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 
 namespace System.Management.Automation.InteropServices
 {

@@ -1,26 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Management.Automation.Language;
-using System.Management.Automation.Runspaces;
-using System.Net;
-using System.Runtime.CompilerServices;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Xml;
-
-using Microsoft.Management.Infrastructure;
-using Microsoft.Management.Infrastructure.Options;
 using Microsoft.PowerShell;
 using Microsoft.PowerShell.Commands;
-
+using System.Management.Automation.Language;
+using System.Management.Automation.Runspaces;
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation

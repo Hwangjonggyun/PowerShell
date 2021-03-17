@@ -1,17 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Configuration;
-using System.Management.Automation.Internal;
-using System.Reflection;
-using System.Threading;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using PSTests.Internal;
-using Xunit;
 
 namespace PSTests.Sequential
 {
@@ -99,7 +89,7 @@ namespace PSTests.Sequential
         {
             Dispose(true);
             GC.SuppressFinalize(this);
-        }        
+        }
 
         protected virtual void Dispose(bool disposing)
         {

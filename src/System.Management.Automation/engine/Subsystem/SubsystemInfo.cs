@@ -3,9 +3,6 @@
 
 #nullable enable
 
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Management.Automation.Internal;
 
 namespace System.Management.Automation.Subsystem

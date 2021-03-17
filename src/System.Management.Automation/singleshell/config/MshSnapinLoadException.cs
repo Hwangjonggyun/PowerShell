@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Security.Permissions;
-
 namespace System.Management.Automation.Runspaces
 {
     /// <summary>

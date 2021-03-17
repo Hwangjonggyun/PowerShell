@@ -3,9 +3,6 @@
 
 #nullable enable
 
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
 
 namespace System.Management.Automation.InteropServices
 {

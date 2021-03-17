@@ -3,15 +3,6 @@
 
 #nullable enable
 
-using System;
-using System.ComponentModel;
-using System.Globalization;
-using System.Management.Automation;
-using System.Management.Automation.Host;
-using System.Management.Automation.Runspaces;
-using System.Management.Automation.Tracing;
-using System.Runtime.InteropServices;
-using System.Threading;
 
 namespace Microsoft.PowerShell
 {

@@ -1,7 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Linq;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
 
@@ -9,9 +8,6 @@ using System.Management.Automation.Language;
 
 namespace System.Management.Automation
 {
-    using Dbg = Diagnostics;
-    using System.Collections.ObjectModel;
-
     internal static class VariableOps
     {
         internal static object SetVariableValue(VariablePath variablePath, object value, ExecutionContext executionContext, AttributeBaseAst[] attributeAsts)

@@ -6,16 +6,6 @@
 // Any private/internal methods or properties are found in the file AstCompile.cs.
 //
 
-using System.Collections;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Collections.ObjectModel;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-using System.Text;
-using System.Threading;
 using Microsoft.PowerShell;
 using Microsoft.PowerShell.Commands;
 
@@ -23,11 +13,9 @@ using Microsoft.PowerShell.Commands;
 
 namespace System.Management.Automation.Language
 {
-    using KeyValuePair = Tuple<ExpressionAst, StatementAst>;
     using IfClause = Tuple<PipelineBaseAst, StatementBlockAst>;
+    using KeyValuePair = Tuple<ExpressionAst, StatementAst>;
     using SwitchClause = Tuple<ExpressionAst, StatementBlockAst>;
-    using System.Runtime.CompilerServices;
-    using System.Reflection.Emit;
 
 #nullable enable
 

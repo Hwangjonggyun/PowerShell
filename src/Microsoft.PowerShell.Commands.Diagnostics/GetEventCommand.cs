@@ -1,21 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.Diagnostics.CodeAnalysis;
-using System.Diagnostics.Eventing.Reader;
-using System.Globalization;
-using System.Management.Automation;
-using System.Net;
-using System.Resources;
-using System.Security.Principal;
-using System.Text;
-using System.Xml;
-
 [assembly: CLSCompliant(false)]
 
 namespace Microsoft.PowerShell.Commands

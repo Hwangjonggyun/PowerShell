@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-
-using Microsoft.Management.Infrastructure;
-using Microsoft.Management.Infrastructure.Options;
-
 namespace Microsoft.PowerShell.Cmdletization.Cim
 {
     /// <summary>

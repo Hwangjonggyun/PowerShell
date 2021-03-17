@@ -1,18 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Language;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
-
-using Microsoft.PowerShell.Commands;
-
 using CimClass = Microsoft.Management.Infrastructure.CimClass;
 using CimInstance = Microsoft.Management.Infrastructure.CimInstance;
 

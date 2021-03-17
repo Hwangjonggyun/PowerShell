@@ -3,9 +3,6 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.IO;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Provider;
 using Dbg = System.Management.Automation;

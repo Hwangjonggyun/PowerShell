@@ -1,14 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Runtime.InteropServices;
-
-using Microsoft.Win32;
-using Microsoft.Win32.SafeHandles;
-
 namespace System.Management.Automation
 {
     /// <summary>
@@ -701,15 +693,15 @@ namespace System.Management.Automation
                 // helper for getting unix mode
                 private Dictionary<StatMask, char> modeMap = new()
                 {
-                        { StatMask.OwnerRead, CanRead },
-                        { StatMask.OwnerWrite, CanWrite },
-                        { StatMask.OwnerExecute, CanExecute },
-                        { StatMask.GroupRead, CanRead },
-                        { StatMask.GroupWrite, CanWrite },
-                        { StatMask.GroupExecute, CanExecute },
-                        { StatMask.OtherRead, CanRead },
-                        { StatMask.OtherWrite, CanWrite },
-                        { StatMask.OtherExecute, CanExecute },
+                    { StatMask.OwnerRead, CanRead },
+                    { StatMask.OwnerWrite, CanWrite },
+                    { StatMask.OwnerExecute, CanExecute },
+                    { StatMask.GroupRead, CanRead },
+                    { StatMask.GroupWrite, CanWrite },
+                    { StatMask.GroupExecute, CanExecute },
+                    { StatMask.OtherRead, CanRead },
+                    { StatMask.OtherWrite, CanWrite },
+                    { StatMask.OtherExecute, CanExecute },
                 };
 
                 private StatMask[] permissions = new StatMask[]

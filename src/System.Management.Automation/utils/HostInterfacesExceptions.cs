@@ -2,7 +2,6 @@
 // Licensed under the MIT License.
 
 using System.Management.Automation.Internal;
-using System.Runtime.Serialization;
 
 namespace System.Management.Automation.Host
 {

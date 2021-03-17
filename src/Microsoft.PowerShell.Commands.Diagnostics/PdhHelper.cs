@@ -1,15 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Diagnostics;
-using System.Globalization;
-using System.Runtime.InteropServices;
-
 using Microsoft.PowerShell.Commands.GetCounter;
-using Microsoft.Win32;
 
 namespace Microsoft.Powershell.Commands.GetCounter.PdhNative
 {

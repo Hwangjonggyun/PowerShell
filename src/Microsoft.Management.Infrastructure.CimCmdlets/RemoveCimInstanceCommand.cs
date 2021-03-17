@@ -3,10 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
 
 #endregion
 
@@ -331,43 +327,50 @@ namespace Microsoft.Management.Infrastructure.CimCmdlets
         private static readonly Dictionary<string, HashSet<ParameterDefinitionEntry>> parameters = new()
         {
             {
-                nameCimSession, new HashSet<ParameterDefinitionEntry> {
+                nameCimSession,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.CimInstanceSessionSet, true),
                                     new ParameterDefinitionEntry(CimBaseCommand.QuerySessionSet, true),
                                  }
             },
             {
-                nameComputerName, new HashSet<ParameterDefinitionEntry> {
+                nameComputerName,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.QueryComputerSet, false),
                                     new ParameterDefinitionEntry(CimBaseCommand.CimInstanceComputerSet, false),
                                  }
             },
             {
-                nameNamespace, new HashSet<ParameterDefinitionEntry> {
+                nameNamespace,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.QuerySessionSet, false),
                                     new ParameterDefinitionEntry(CimBaseCommand.QueryComputerSet, false),
                                  }
             },
             {
-                nameCimInstance, new HashSet<ParameterDefinitionEntry> {
+                nameCimInstance,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.CimInstanceComputerSet, true),
                                     new ParameterDefinitionEntry(CimBaseCommand.CimInstanceSessionSet, true),
                                  }
             },
             {
-                nameQuery, new HashSet<ParameterDefinitionEntry> {
+                nameQuery,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.QueryComputerSet, true),
                                     new ParameterDefinitionEntry(CimBaseCommand.QuerySessionSet, true),
                                  }
             },
             {
-                nameQueryDialect, new HashSet<ParameterDefinitionEntry> {
+                nameQueryDialect,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.QuerySessionSet, false),
                                     new ParameterDefinitionEntry(CimBaseCommand.QueryComputerSet, false),
                                  }
             },
             {
-                nameResourceUri, new HashSet<ParameterDefinitionEntry> {
+                nameResourceUri,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.CimInstanceComputerSet, false),
                                     new ParameterDefinitionEntry(CimBaseCommand.CimInstanceSessionSet, false),
                                  }
@@ -379,10 +382,10 @@ namespace Microsoft.Management.Infrastructure.CimCmdlets
         /// </summary>
         private static readonly Dictionary<string, ParameterSetEntry> parameterSets = new()
         {
-            {   CimBaseCommand.CimInstanceComputerSet, new ParameterSetEntry(1, true)     },
-            {   CimBaseCommand.CimInstanceSessionSet, new ParameterSetEntry(2)     },
-            {   CimBaseCommand.QueryComputerSet, new ParameterSetEntry(1)     },
-            {   CimBaseCommand.QuerySessionSet, new ParameterSetEntry(2)     },
+            { CimBaseCommand.CimInstanceComputerSet, new ParameterSetEntry(1, true) },
+            { CimBaseCommand.CimInstanceSessionSet, new ParameterSetEntry(2) },
+            { CimBaseCommand.QueryComputerSet, new ParameterSetEntry(1) },
+            { CimBaseCommand.QuerySessionSet, new ParameterSetEntry(2) },
         };
         #endregion
     }

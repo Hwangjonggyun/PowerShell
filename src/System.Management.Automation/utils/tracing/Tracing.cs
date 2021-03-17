@@ -3,7 +3,6 @@
 
 #if !UNIX
 
-using System.Text;
 
 namespace System.Management.Automation.Tracing
 {

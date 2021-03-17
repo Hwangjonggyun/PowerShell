@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-
-using Microsoft.Win32;
 
 #pragma warning disable 1591, 1572, 1571, 1573, 1587, 1570, 0067
 
@@ -133,9 +128,6 @@ namespace System.Management.Automation.Internal
 
 namespace Microsoft.PowerShell.Commands.Internal
 {
-    using System.Security.AccessControl;
-    using System.Security.Principal;
-
     #region TransactedRegistryKey
 
     internal abstract class TransactedRegistryKey : IDisposable
@@ -301,8 +293,6 @@ namespace System.Management.Automation.Internal
 
 namespace System.Management.Automation
 {
-    using Microsoft.Win32;
-
     #region RegistryStringResourceIndirect
 
     internal sealed class RegistryStringResourceIndirect : IDisposable

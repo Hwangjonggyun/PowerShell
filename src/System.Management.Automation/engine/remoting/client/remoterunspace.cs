@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Management.Automation.Host;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Remoting;
@@ -13,9 +8,7 @@ using System.Management.Automation.Runspaces;
 using System.Management.Automation.Runspaces.Internal;
 using System.Management.Automation.Tracing;
 #if !UNIX
-using System.Security.Principal;
 #endif
-using System.Threading;
 using Microsoft.PowerShell.Commands;
 
 using Dbg = System.Management.Automation.Diagnostics;

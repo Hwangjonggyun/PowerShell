@@ -3,7 +3,6 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Threading;
 using Dbg = System.Management.Automation;
 
 namespace System.Management.Automation

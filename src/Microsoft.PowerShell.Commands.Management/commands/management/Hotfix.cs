@@ -3,13 +3,6 @@
 
 #if !UNIX
 
-using System;
-using System.Diagnostics.CodeAnalysis;
-using System.Management;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Security.Principal;
-using System.Text;
 
 namespace Microsoft.PowerShell.Commands
 {

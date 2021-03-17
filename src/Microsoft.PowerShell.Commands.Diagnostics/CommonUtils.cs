@@ -1,13 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Diagnostics;
-using System.Reflection;
-using System.Resources;
-using System.Runtime.InteropServices;
-using System.Text;
-
 namespace Microsoft.PowerShell.Commands.Diagnostics.Common
 {
     internal static class CommonUtilities

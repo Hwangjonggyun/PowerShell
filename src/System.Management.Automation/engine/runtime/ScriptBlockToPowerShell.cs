@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Linq;
 using System.Management.Automation.Language;
 using System.Management.Automation.Runspaces;
 
@@ -363,11 +359,11 @@ namespace System.Management.Automation
                 if (rte.ErrorRecord.FullyQualifiedErrorId.Equals("VariableIsUndefined", StringComparison.Ordinal))
                 {
                     throw InterpreterError.NewInterpreterException(
-                        targetObject: null, 
+                        targetObject: null,
                         exceptionType: typeof(RuntimeException),
-                        errorPosition: usingAst.Extent, 
+                        errorPosition: usingAst.Extent,
                         resourceIdAndErrorId: "UsingVariableIsUndefined",
-                        resourceString: AutomationExceptions.UsingVariableIsUndefined, 
+                        resourceString: AutomationExceptions.UsingVariableIsUndefined,
                         args: rte.ErrorRecord.TargetObject);
                 }
             }
@@ -428,7 +424,7 @@ namespace System.Management.Automation
                                     break;
                                 }
                             }
-                            
+
                             if (found)
                             {
                                 // Verify this is foreach-object with parallel parameter set.

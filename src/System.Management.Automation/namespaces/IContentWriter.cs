@@ -1,8 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.IO;
 
 #nullable enable
 namespace System.Management.Automation.Provider

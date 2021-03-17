@@ -3,9 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.Threading;
-using Microsoft.Management.Infrastructure.Options;
 
 #endregion
 

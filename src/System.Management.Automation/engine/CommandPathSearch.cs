@@ -3,11 +3,6 @@
 
 #nullable enable
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
 
 namespace System.Management.Automation
 {

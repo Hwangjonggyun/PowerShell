@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Printing;
-
 namespace Microsoft.PowerShell.Commands.Internal.Format
 {
     /// <summary>

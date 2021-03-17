@@ -3,15 +3,11 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Management.Automation.Host;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Internal.Host;
 using System.Management.Automation.Remoting;
 using System.Management.Automation.Runspaces;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

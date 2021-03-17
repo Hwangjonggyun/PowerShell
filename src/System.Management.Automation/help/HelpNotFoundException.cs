@@ -4,11 +4,7 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56506
 
-using System;
 using System.Management.Automation;
-using System.Runtime.Serialization;
-using System.Reflection;
-using System.Security.Permissions;
 
 namespace Microsoft.PowerShell.Commands
 {

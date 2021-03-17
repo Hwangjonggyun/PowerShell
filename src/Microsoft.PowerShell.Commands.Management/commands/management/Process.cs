@@ -1,26 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.ComponentModel; // Win32Exception
-using System.Diagnostics; // Process class
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Net;
-using System.Runtime.InteropServices;
-using System.Runtime.Serialization;
-using System.Security;
-using System.Security.Principal;
-using System.Text;
-using System.Threading;
-using Microsoft.Management.Infrastructure;
-using Microsoft.PowerShell.Commands.Internal;
-using Microsoft.Win32.SafeHandles;
 using DWORD = System.UInt32;
 using FileNakedHandle = System.IntPtr;
 

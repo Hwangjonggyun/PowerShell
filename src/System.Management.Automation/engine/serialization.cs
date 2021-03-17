@@ -1,30 +1,12 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
 using System.Management.Automation.Remoting;
 using System.Management.Automation.Runspaces;
 using System.Management.Automation.Tracing;
-using System.Net.Mail;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Security;
-using System.Text;
-using System.Xml;
-
-using Microsoft.Management.Infrastructure;
-using Microsoft.Management.Infrastructure.Serialization;
-using Microsoft.PowerShell.Commands;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation
@@ -6576,7 +6558,6 @@ namespace System.Management.Automation
 namespace Microsoft.PowerShell
 {
     using System.Management.Automation;
-    using System.Security.Principal;
 
     /// <summary>
     /// Rehydrating type converter used during deserialization.

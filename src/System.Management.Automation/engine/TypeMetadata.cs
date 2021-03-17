@@ -1,15 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Linq;
-using System.Management.Automation.Language;
-using System.Reflection;
-
 using Microsoft.PowerShell;
-
+using System.Management.Automation.Language;
 using Dbg = System.Diagnostics.Debug;
 
 namespace System.Management.Automation

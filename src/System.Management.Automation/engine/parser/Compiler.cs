@@ -1,29 +1,15 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.Diagnostics;
-using System.Dynamic;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Linq.Expressions;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Interpreter;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Text.RegularExpressions;
-
-using Microsoft.PowerShell.Commands;
 
 namespace System.Management.Automation.Language
 {
-    using KeyValuePair = Tuple<ExpressionAst, StatementAst>;
     using IfClause = Tuple<PipelineBaseAst, StatementBlockAst>;
+    using KeyValuePair = Tuple<ExpressionAst, StatementAst>;
 
     internal static class CachedReflectionInfo
     {

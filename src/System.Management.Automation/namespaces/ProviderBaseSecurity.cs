@@ -1,8 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Security.AccessControl;
-
 namespace System.Management.Automation.Provider
 {
     /// <summary>

@@ -1,17 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.IO;
-using System.IO.Compression;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Net.Http;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
-
 namespace Microsoft.PowerShell.Commands
 {
     /// <summary>

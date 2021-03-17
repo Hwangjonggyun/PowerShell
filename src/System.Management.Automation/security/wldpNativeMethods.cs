@@ -7,8 +7,6 @@
 #if !UNIX
 
 using System.Management.Automation.Internal;
-using System.Runtime.InteropServices;
-using System.Diagnostics.CodeAnalysis;
 
 namespace System.Management.Automation.Security
 {

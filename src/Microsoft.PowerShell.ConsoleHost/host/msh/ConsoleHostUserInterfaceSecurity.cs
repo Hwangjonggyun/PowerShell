@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Security;
-
 namespace Microsoft.PowerShell
 {
     /// <summary>

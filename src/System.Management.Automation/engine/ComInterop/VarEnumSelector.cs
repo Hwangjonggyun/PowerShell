@@ -3,12 +3,7 @@
 
 #pragma warning disable 618 // The *Wrapper classes for COM are obsolete
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
 using System.Management.Automation.InteropServices;
-using System.Runtime.InteropServices;
 
 namespace System.Management.Automation.ComInterop
 {

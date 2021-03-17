@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-using System.Xml;
-
 using Microsoft.PowerShell.Commands;
 
 using Dbg = System.Management.Automation.Diagnostics;

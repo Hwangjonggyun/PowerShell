@@ -1,13 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.IO;
 using System.Management.Automation.Host;
 using System.Management.Automation.Internal.Host;
-using System.Runtime.Serialization.Formatters.Binary;
-
-using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation.Remoting
 {

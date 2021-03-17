@@ -3,26 +3,6 @@
 
 #if !UNIX
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Host;
-using System.Management.Automation.Internal;
-using System.Management.Automation.Provider;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
-using System.Text.RegularExpressions;
-using System.Xml;
-using System.Xml.XPath;
-
 using Dbg = System.Management.Automation;
 using DWORD = System.UInt32;
 using Runspaces = System.Management.Automation.Runspaces;

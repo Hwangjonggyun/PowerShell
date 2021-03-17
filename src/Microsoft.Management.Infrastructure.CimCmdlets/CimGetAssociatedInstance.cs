@@ -3,7 +3,6 @@
 
 #region Using directives
 
-using System.Collections.Generic;
 
 #endregion
 

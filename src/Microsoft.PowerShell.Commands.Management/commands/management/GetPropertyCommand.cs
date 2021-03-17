@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.ObjectModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
-
 namespace Microsoft.PowerShell.Commands
 {
     /// <summary>

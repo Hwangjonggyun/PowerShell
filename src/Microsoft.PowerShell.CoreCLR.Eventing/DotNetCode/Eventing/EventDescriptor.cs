@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Runtime.InteropServices;
-
 namespace System.Diagnostics.Eventing
 {
     [StructLayout(LayoutKind.Explicit, Size = 16)]

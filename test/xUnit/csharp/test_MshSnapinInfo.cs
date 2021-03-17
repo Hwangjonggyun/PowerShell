@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Management.Automation;
-using Xunit;
-
 namespace PSTests.Parallel
 {
     // Not static because a test requires non-const variables

@@ -1,12 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Diagnostics;
-using System.Linq;
-using System.Linq.Expressions;
 using System.Management.Automation.Internal;
-using System.Reflection;
 
 namespace System.Management.Automation.Language
 {

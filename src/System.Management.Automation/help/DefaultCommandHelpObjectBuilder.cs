@@ -1,15 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Globalization;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Text;
 
 namespace System.Management.Automation.Help
 {

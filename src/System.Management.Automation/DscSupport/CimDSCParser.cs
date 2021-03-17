@@ -1,26 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation;
 using System.Management.Automation.Language;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Text;
-
-using Microsoft.Management.Infrastructure;
-using Microsoft.Management.Infrastructure.Generic;
-using Microsoft.Management.Infrastructure.Serialization;
-using Microsoft.PowerShell.Commands;
 
 namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal
 {
@@ -2715,16 +2698,16 @@ namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal
         private static readonly Dictionary<Type, string> s_mapPrimitiveDotNetTypeToMof = new()
         {
             { typeof(sbyte), "sint8" },
-            { typeof(byte) , "uint8"},
-            { typeof(short) , "sint16"},
-            { typeof(ushort) , "uint16"},
-            { typeof(int) , "sint32"},
-            { typeof(uint) , "uint32"},
-            { typeof(long) , "sint64"},
+            { typeof(byte), "uint8" },
+            { typeof(short), "sint16" },
+            { typeof(ushort), "uint16" },
+            { typeof(int), "sint32" },
+            { typeof(uint), "uint32" },
+            { typeof(long), "sint64" },
             { typeof(ulong), "uint64" },
-            { typeof(float) , "real32"},
-            { typeof(double) , "real64"},
-            { typeof(bool) , "boolean"},
+            { typeof(float), "real32" },
+            { typeof(double), "real64" },
+            { typeof(bool), "boolean" },
             { typeof(string), "string" },
             { typeof(DateTime), "datetime" },
             { typeof(PSCredential), "string" },

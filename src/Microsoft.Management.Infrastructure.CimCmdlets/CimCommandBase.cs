@@ -2,15 +2,6 @@
 // Licensed under the MIT License.
 
 #region Using directives
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
-using System.Management.Automation;
-using System.Net;
-using System.Text;
-using Microsoft.Management.Infrastructure.Options;
 #endregion
 
 namespace Microsoft.Management.Infrastructure.CimCmdlets

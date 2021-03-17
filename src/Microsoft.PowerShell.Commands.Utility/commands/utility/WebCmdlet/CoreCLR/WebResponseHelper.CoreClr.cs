@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Net.Http;
-
 namespace Microsoft.PowerShell.Commands
 {
     internal static class WebResponseHelper

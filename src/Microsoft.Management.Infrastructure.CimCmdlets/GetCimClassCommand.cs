@@ -3,10 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
 
 #endregion
 
@@ -255,13 +251,15 @@ namespace Microsoft.Management.Infrastructure.CimCmdlets
         private static readonly Dictionary<string, HashSet<ParameterDefinitionEntry>> parameters = new()
         {
             {
-                nameCimSession, new HashSet<ParameterDefinitionEntry> {
+                nameCimSession,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.SessionSetName, true),
                                  }
             },
 
             {
-                nameComputerName, new HashSet<ParameterDefinitionEntry> {
+                nameComputerName,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.ComputerSetName, false),
                                  }
             },
@@ -272,8 +270,8 @@ namespace Microsoft.Management.Infrastructure.CimCmdlets
         /// </summary>
         private static readonly Dictionary<string, ParameterSetEntry> parameterSets = new()
         {
-            {   CimBaseCommand.SessionSetName, new ParameterSetEntry(1)     },
-            {   CimBaseCommand.ComputerSetName, new ParameterSetEntry(0, true)     },
+            { CimBaseCommand.SessionSetName, new ParameterSetEntry(1) },
+            { CimBaseCommand.ComputerSetName, new ParameterSetEntry(0, true) },
         };
         #endregion
     }

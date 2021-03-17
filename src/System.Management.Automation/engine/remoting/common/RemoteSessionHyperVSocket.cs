@@ -1,12 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.IO;
 using System.Management.Automation.Tracing;
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading;
 
 using Dbg = System.Diagnostics.Debug;
 

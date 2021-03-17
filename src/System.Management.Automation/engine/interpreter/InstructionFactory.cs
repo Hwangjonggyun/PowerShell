@@ -13,10 +13,7 @@
  *
  * ***************************************************************************/
 
-using System.Collections.Concurrent;
 using BigInt = System.Numerics.BigInteger;
-using System.Runtime.CompilerServices;
-using System.Threading;
 
 namespace System.Management.Automation.Interpreter
 {

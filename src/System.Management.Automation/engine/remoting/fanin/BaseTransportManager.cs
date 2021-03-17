@@ -8,15 +8,8 @@
  */
 
 using System.Management.Automation.Tracing;
-using System.Text;
-using System.IO;
-using System.Xml;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Threading;
 using System.Management.Automation.Internal;
 #if !UNIX
-using System.Security.Principal;
 #endif
 
 // Don't expose the System.Management.Automation namespace here. This is transport layer

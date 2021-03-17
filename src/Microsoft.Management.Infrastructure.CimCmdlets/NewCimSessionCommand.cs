@@ -2,10 +2,6 @@
 // Licensed under the MIT License.
 
 #region Using directives
-using System;
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
-using Microsoft.Management.Infrastructure.Options;
 
 #endregion
 

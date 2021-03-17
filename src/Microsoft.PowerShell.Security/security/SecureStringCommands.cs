@@ -1,12 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Management.Automation;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Security.Cryptography;
-
 using Dbg = System.Management.Automation;
 
 namespace Microsoft.PowerShell.Commands

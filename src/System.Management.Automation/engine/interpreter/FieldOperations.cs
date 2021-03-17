@@ -13,9 +13,6 @@
  *
  * ***************************************************************************/
 
-using System.Diagnostics;
-using System.Reflection;
-
 namespace System.Management.Automation.Interpreter
 {
     internal sealed class LoadStaticFieldInstruction : Instruction

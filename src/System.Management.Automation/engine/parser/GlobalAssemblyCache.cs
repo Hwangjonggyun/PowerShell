@@ -3,14 +3,6 @@
 
 // Code in this file was copied from https://github.com/dotnet/roslyn
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices;
 
 #if !CORECLR // Only enable/port what is needed by CORE CLR.
 namespace Microsoft.CodeAnalysis
@@ -28,7 +20,7 @@ namespace Microsoft.CodeAnalysis
 
             : new[] { ProcessorArchitecture.None, ProcessorArchitecture.MSIL, ProcessorArchitecture.Amd64 };
 
-#region Interop
+        #region Interop
 
         private const int MAX_PATH = 260;
 
@@ -85,7 +77,7 @@ namespace Microsoft.CodeAnalysis
         [DllImport("clr", CharSet = CharSet.Auto, PreserveSig = false)]
         private static extern void CreateAssemblyCache(out IAssemblyCache ppAsmCache, uint dwReserved);
 
-#endregion
+        #endregion
 
         private const int S_OK = 0;
         private const int S_FALSE = 1;

@@ -1,15 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.IO;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Language;
 using System.Management.Automation.Runspaces;
 using System.Management.Automation.Security;
-using System.Text;
-
-using Microsoft.PowerShell.Commands;
 
 namespace System.Management.Automation
 {

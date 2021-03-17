@@ -1,12 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Reflection;
-
-using Microsoft.Management.Infrastructure;
-
 namespace Microsoft.PowerShell.Commands
 {
     using Extensions;

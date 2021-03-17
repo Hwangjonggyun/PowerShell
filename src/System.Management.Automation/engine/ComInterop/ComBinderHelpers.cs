@@ -3,14 +3,7 @@
 
 #pragma warning disable 618 // CurrencyWrapper is obsolete
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Dynamic;
-using System.Globalization;
-using System.Linq.Expressions;
 using System.Management.Automation.Language;
-using System.Runtime.InteropServices;
 
 namespace System.Management.Automation.ComInterop
 {

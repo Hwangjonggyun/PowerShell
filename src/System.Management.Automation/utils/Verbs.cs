@@ -1,12 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Reflection;
-
-using Dbg = System.Management.Automation.Diagnostics;
-
 namespace System.Management.Automation
 {
     #region VERBS

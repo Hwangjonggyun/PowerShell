@@ -3,11 +3,6 @@
 
 // Code in this file was copied from https://github.com/dotnet/roslyn
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
-using System.Runtime.InteropServices;
 
 #if !CORECLR
 namespace Microsoft.CodeAnalysis
@@ -118,7 +113,7 @@ namespace Microsoft.CodeAnalysis
         }
 
         [DllImport("clr", EntryPoint = "CreateAssemblyNameObject", CharSet = CharSet.Unicode, PreserveSig = true)]
-        private static extern int RealCreateAssemblyNameObject(out IAssemblyName ppEnum, [MarshalAs(UnmanagedType.LPWStr)]string szAssemblyName, uint dwFlags, IntPtr pvReserved);
+        private static extern int RealCreateAssemblyNameObject(out IAssemblyName ppEnum, [MarshalAs(UnmanagedType.LPWStr)] string szAssemblyName, uint dwFlags, IntPtr pvReserved);
 
         private const int ERROR_INSUFFICIENT_BUFFER = unchecked((int)0x8007007A);
         private const int FUSION_E_INVALID_NAME = unchecked((int)0x80131047);

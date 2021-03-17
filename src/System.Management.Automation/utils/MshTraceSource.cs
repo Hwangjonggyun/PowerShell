@@ -3,7 +3,6 @@
 
 #define TRACE
 
-using System.Reflection;
 using System.Management.Automation.Internal;
 
 namespace System.Management.Automation

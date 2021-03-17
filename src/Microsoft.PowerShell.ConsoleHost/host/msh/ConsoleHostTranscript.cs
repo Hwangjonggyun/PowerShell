@@ -1,11 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.IO;
-using System.Management.Automation.Host;
-using System.Management.Automation.Internal;
-
 namespace Microsoft.PowerShell
 {
     internal sealed partial class ConsoleHost : PSHost, IDisposable

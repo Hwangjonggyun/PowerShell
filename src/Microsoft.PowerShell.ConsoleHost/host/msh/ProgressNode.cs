@@ -1,15 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Management.Automation;
-using System.Management.Automation.Host;
-using System.Management.Automation.Internal;
-using System.Text;
-
-using Microsoft.PowerShell.Commands.Internal.Format;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace Microsoft.PowerShell

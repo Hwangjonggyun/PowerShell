@@ -1,12 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.ObjectModel;
-using System.Management.Automation.Subsystem;
-using System.Threading;
-using Xunit;
-
 namespace PSTests.Sequential
 {
     public static class SubsystemTests

@@ -1,19 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Configuration;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
-using System.Text;
-using System.Threading;
-
-using Microsoft.PowerShell.Commands;
-using Microsoft.Win32;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation

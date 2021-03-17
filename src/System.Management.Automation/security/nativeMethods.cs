@@ -4,11 +4,9 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56523
 
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
 using System.Management.Automation.Internal;
-using DWORD = System.UInt32;
 using BOOL = System.UInt32;
+using DWORD = System.UInt32;
 
 namespace System.Management.Automation.Security
 {

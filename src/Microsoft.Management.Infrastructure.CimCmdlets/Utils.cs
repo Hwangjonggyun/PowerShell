@@ -4,13 +4,6 @@
 // #define LOGENABLE // uncomment this line to enable the log,
 // create c:\temp\cim.log before invoking cimcmdlets
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.Text.RegularExpressions;
-
 namespace Microsoft.Management.Infrastructure.CimCmdlets
 {
     /// <summary>

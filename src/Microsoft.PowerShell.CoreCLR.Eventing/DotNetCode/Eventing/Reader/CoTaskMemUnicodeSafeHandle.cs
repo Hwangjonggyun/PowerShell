@@ -10,8 +10,6 @@
 **
 ============================================================*/
 
-using System.Runtime.InteropServices;
-
 namespace System.Diagnostics.Eventing.Reader
 {
     //

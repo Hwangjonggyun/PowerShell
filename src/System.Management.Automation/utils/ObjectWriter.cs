@@ -3,9 +3,6 @@
 
 namespace System.Management.Automation.Internal
 {
-    using System;
-    using System.Threading;
-    using System.Runtime.InteropServices;
     using System.Management.Automation.Runspaces;
 
     /// <summary>

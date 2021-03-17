@@ -1,13 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Globalization;
-using System.Linq;
-using System.Reflection;
-
-using Dbg = System.Management.Automation.Diagnostics;
-
 namespace System.Management.Automation
 {
     /// <summary>

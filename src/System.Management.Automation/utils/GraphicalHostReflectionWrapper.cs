@@ -3,12 +3,7 @@
 
 namespace System.Management.Automation.Internal
 {
-    using System;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Globalization;
-    using System.IO;
     using System.Management.Automation;
-    using System.Reflection;
 
     /// <summary>
     /// Helper to access Microsoft.PowerShell.GraphicalHost.dll (which references on WPF) using reflection, since

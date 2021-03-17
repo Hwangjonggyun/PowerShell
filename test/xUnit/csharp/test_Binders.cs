@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Management.Automation.Language;
-using Xunit;
-
 namespace PSTests.Parallel
 {
     public static class PSEnumerableBinderTests

@@ -1,14 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
 using System.Management.Automation.Runspaces;
 using System.Management.Automation.Tracing;
-using System.Security;
-using System.Threading;
 
 namespace System.Management.Automation
 {

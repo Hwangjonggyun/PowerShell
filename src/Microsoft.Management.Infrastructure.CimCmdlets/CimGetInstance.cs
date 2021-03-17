@@ -3,10 +3,6 @@
 
 #region Using directives
 
-using System.Collections.Generic;
-using System.Globalization;
-using System.Management.Automation;
-using System.Text;
 
 #endregion
 

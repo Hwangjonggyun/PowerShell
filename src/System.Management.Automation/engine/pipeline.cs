@@ -1,14 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
+using Microsoft.PowerShell.Telemetry;
 using System.Management.Automation.Runspaces;
 using System.Management.Automation.Tracing;
-using System.Reflection;
-using System.Runtime.ExceptionServices;
-using Microsoft.PowerShell.Telemetry;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 #pragma warning disable 1634, 1691 // Stops compiler from warning about unknown warnings

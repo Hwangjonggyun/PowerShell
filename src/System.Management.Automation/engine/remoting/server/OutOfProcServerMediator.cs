@@ -1,15 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.IO;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Tracing;
-using System.Threading;
 #if !UNIX
-using System.Security.Principal;
 #endif
-using Microsoft.Win32.SafeHandles;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation.Remoting.Server

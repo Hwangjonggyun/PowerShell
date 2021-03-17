@@ -1,19 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Management.Automation.Language;
-using Xunit;
-
 namespace PSTests.Parallel
 {
-    using System.Linq;
-    using System.Management.Automation;
-    using System.Management.Automation.Runspaces;
-    using System.Xml;
-
-    using Microsoft.Management.Infrastructure;
-
     public static class PSObjectTests
     {
         [Fact]

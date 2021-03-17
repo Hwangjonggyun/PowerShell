@@ -449,7 +449,7 @@ namespace System.Management.Automation
         private PSStyle()
         {
             Formatting = new FormattingData();
-            Progress   = new ProgressConfiguration();
+            Progress = new ProgressConfiguration();
             Foreground = new ForegroundColor();
             Background = new BackgroundColor();
         }

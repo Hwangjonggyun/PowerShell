@@ -5,8 +5,6 @@
 
 namespace System.Management.Automation.Tracing
 {
-    using System;
-
     internal interface IMethodInvoker
     {
         Delegate Invoker { get; }

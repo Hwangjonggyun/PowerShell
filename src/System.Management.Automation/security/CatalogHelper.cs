@@ -3,14 +3,8 @@
 
 #if !UNIX
 
-using System.Security.Cryptography;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Security;
-using System.Runtime.InteropServices;
 using DWORD = System.UInt32;
 
 namespace System.Management.Automation

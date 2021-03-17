@@ -1,10 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using System.Management.Automation.Language;
-using System.Runtime.Serialization;
 
 namespace System.Management.Automation
 {

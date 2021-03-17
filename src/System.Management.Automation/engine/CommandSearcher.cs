@@ -3,11 +3,6 @@
 
 #nullable enable
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
 using System.Management.Automation.Internal;
 
 using Dbg = System.Management.Automation.Diagnostics;

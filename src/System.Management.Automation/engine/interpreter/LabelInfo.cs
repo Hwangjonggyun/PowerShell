@@ -14,14 +14,9 @@
  * ***************************************************************************/
 
 #if !CLR2
-using System.Globalization;
-using System.Linq;
-using System.Linq.Expressions;
 #else
 using Microsoft.Scripting.Ast;
 #endif
-using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace System.Management.Automation.Interpreter
 {

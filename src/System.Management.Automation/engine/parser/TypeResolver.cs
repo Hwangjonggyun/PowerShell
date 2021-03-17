@@ -1,29 +1,11 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
 #if !UNIX
-using System.DirectoryServices;
 #endif
-using System.Globalization;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Language;
 using System.Management.Automation.Runspaces;
-using System.Net;
-using System.Net.Mail;
-using System.Net.NetworkInformation;
-using System.Numerics;
-using System.Reflection;
-using System.Security;
-using System.Security.AccessControl;
-using System.Security.Cryptography.X509Certificates;
-using System.Text.RegularExpressions;
-using System.Xml;
-
-using Microsoft.Management.Infrastructure;
-using Microsoft.PowerShell.Commands;
 
 namespace System.Management.Automation.Language
 {

@@ -1,13 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Management.Automation.Host;
-using System.Management.Automation.Tracing;
-
 using Microsoft.PowerShell;
 using Microsoft.PowerShell.Commands;
+using System.Management.Automation.Host;
+using System.Management.Automation.Tracing;
 
 namespace System.Management.Automation.Runspaces
 {

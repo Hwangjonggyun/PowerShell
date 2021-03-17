@@ -1,13 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Management.Automation;
-using System.Net.Mail;
-using System.Text;
-
 namespace Microsoft.PowerShell.Commands
 {
     #region SendMailMessage

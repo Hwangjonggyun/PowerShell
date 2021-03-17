@@ -3,10 +3,9 @@
 
 #if !UNIX
 
+using Microsoft.PowerShell.Commands.Internal;
 using System.Management.Automation;
 using System.Management.Automation.Provider;
-using System.Security.AccessControl;
-using Microsoft.PowerShell.Commands.Internal;
 
 namespace Microsoft.PowerShell.Commands
 {

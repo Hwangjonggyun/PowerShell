@@ -3,16 +3,6 @@
 
 #if !UNIX // Not built on Unix
 
-using System;
-using System.Collections.Generic;
-using System.ComponentModel; // Win32Exception
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Runtime.InteropServices; // Marshal, DllImport
-using System.Runtime.Serialization;
-using System.Security.AccessControl;
-using System.ServiceProcess;
 using Dbg = System.Management.Automation.Diagnostics;
 using DWORD = System.UInt32;
 using NakedWin32Handle = System.IntPtr;

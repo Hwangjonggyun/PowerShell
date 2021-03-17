@@ -14,16 +14,9 @@
  * ***************************************************************************/
 
 #if !CLR2
-using System.Globalization;
-using System.Linq;
-using System.Linq.Expressions;
 #endif
 
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
 using AstUtils = System.Management.Automation.Interpreter.Utils;
-using System.Runtime.CompilerServices;
 
 namespace System.Management.Automation.Interpreter
 {

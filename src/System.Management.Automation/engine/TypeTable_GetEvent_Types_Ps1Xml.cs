@@ -1,10 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Management.Automation.Language;
-using System.Reflection;
 
 namespace System.Management.Automation.Runspaces
 {

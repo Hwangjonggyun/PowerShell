@@ -1,24 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation;
 using System.Management.Automation.Language;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Text;
-using System.Text.RegularExpressions;
-
-using Microsoft.PowerShell.Commands;
 
 namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal.CrossPlatform
 {
@@ -204,15 +189,15 @@ namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal.CrossPlatform
             if (string.IsNullOrEmpty(dscConfigurationDirectory))
             {
                 var moduleInfos = ModuleCmdletBase.GetModuleIfAvailable(new Microsoft.PowerShell.Commands.ModuleSpecification()
-                    {
-                        Name = "PSDesiredStateConfiguration",
+                {
+                    Name = "PSDesiredStateConfiguration",
 
-                        // Version in the next line is actually MinimumVersion
-                        Version = new Version(3, 0, 0)
-                    });
+                    // Version in the next line is actually MinimumVersion
+                    Version = new Version(3, 0, 0)
+                });
 
                 if (moduleInfos.Count > 0)
-                { 
+                {
                     // to be consistent with Import-Module behavior, we use the first occurrence that we find in PSModulePath
                     var moduleDirectory = Path.GetDirectoryName(moduleInfos[0].Path);
                     dscConfigurationDirectory = Path.Join(moduleDirectory, "Configuration");
@@ -760,7 +745,7 @@ namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal.CrossPlatform
                 errors.Add(exception);
                 return;
             }
-            
+
             NewApiIsUsed = true;
             DynamicKeyword.Reset();
             Initialize(errors, modulePathList);
@@ -1294,7 +1279,7 @@ namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal.CrossPlatform
 
             return result;
         }
-        
+
         private static void AddEmbeddedInstanceTypesToCaches(IEnumerable<PSObject> classes, PSModuleInfo module, DSCResourceRunAsCredential runAsBehavior)
         {
             foreach (dynamic c in classes)
@@ -1540,7 +1525,7 @@ namespace Microsoft.PowerShell.DesiredStateConfiguration.Internal.CrossPlatform
                     {
                         errorMessages.Add(error.ToString());
                     }
-                    
+
                     PSInvalidOperationException e = PSTraceSource.NewInvalidOperationException(ParserStrings.FailToParseModuleScriptFile, fileName, string.Join(Environment.NewLine, errorMessages));
                     e.SetErrorId("FailToParseModuleScriptFile");
                     errorList.Add(e);

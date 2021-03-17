@@ -8,12 +8,8 @@
  * call to the appropriate registry API.
  */
 
-using System;
-using System.Globalization;
-using Microsoft.Win32;
-using System.Security.AccessControl;
-using System.Management.Automation.Provider;
 using Microsoft.PowerShell.Commands.Internal;
+using System.Management.Automation.Provider;
 
 namespace Microsoft.PowerShell.Commands
 {

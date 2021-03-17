@@ -1,20 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.IO.Pipes;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Remoting.Server;
 using System.Management.Automation.Tracing;
-using System.Runtime.InteropServices;
-using System.Security.AccessControl;
-using System.Security.Principal;
-using System.Threading;
-using System.Threading.Tasks;
-
-using Microsoft.Win32.SafeHandles;
 
 using Dbg = System.Diagnostics.Debug;
 

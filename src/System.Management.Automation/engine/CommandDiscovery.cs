@@ -1,20 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics.Tracing;
-using System.Globalization;
-using System.IO;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Host;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Runspaces;
-using System.Security;
-
-using Microsoft.PowerShell.Commands;
-using Microsoft.Win32;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace System.Management.Automation

@@ -1,21 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis; // for fxcop
-using System.IO;
-using System.Linq;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Host;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Remoting;
-using System.Runtime.Serialization;
-using System.Threading;
-
-using Microsoft.PowerShell.Commands;
-
 using Dbg = System.Management.Automation.Diagnostics;
 #if LEGACYTELEMETRY
 using Microsoft.PowerShell.Telemetry.Internal;

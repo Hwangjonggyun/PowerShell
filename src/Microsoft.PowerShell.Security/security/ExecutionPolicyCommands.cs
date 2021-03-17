@@ -3,12 +3,8 @@
 
 #region Using directives
 
-using System;
 // System.Management.Automation is the namespace which contains the types and
 // methods pertaining to the Microsoft Command Shell
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Management.Automation.Tracing;
 #endregion
 
 namespace Microsoft.PowerShell.Commands

@@ -1,21 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Management.Automation;
-using System.Management.Automation.Language;
-using System.Reflection;
-using System.Text.RegularExpressions;
-using System.Threading;
-
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-
 namespace Microsoft.PowerShell.Commands
 {
     /// <summary>

@@ -6,8 +6,6 @@
 
 namespace System.Management.Automation.Tracing
 {
-    using System;
-
     /// <summary>
     ///     An object that can be used to revert the ETW activity ID of the current thread
     ///     to its original value.

@@ -2,7 +2,6 @@
 // Licensed under the MIT License.
 
 #region Using directives
-using Microsoft.Management.Infrastructure.Options;
 #endregion
 
 namespace Microsoft.Management.Infrastructure.CimCmdlets

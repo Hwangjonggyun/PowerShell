@@ -1,9 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Runtime.InteropServices;
-
 namespace Microsoft.Powershell.Commands.GetCounter.PdhNative
 {
     internal sealed class PdhSafeDataSourceHandle : SafeHandle

@@ -1,16 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Management.Automation;
-using System.Management.Automation.Runspaces;
-using System.Numerics;
-using System.Security.Cryptography;
-using System.Threading;
-
 using Debug = System.Management.Automation.Diagnostics;
 
 namespace Microsoft.PowerShell.Commands

@@ -3,11 +3,8 @@
 
 #nullable enable
 
-using System;
-using System.Collections.Generic;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
-using System.Threading;
 
 namespace System.Management.Automation.Subsystem
 {

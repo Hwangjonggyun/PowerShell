@@ -4,9 +4,6 @@
 // this file contains the data structures for the in memory database
 // containing display and formatting information
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using Microsoft.PowerShell.Commands;
 using Microsoft.PowerShell.Commands.Internal.Format;
 

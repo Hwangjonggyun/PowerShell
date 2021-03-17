@@ -1,16 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Linq;
-using System.Management.Automation.Internal;
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Threading;
-
 using Microsoft.PowerShell;
+using System.Management.Automation.Internal;
 
 namespace System.Management.Automation.Language
 {

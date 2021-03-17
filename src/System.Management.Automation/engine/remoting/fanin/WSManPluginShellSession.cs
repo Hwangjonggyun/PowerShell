@@ -6,15 +6,10 @@
 //  host powershell in a WSMan service.
 // ----------------------------------------------------------------------
 
-using System.Collections.ObjectModel;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using Microsoft.Win32.SafeHandles;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Remoting.Client;
 using System.Management.Automation.Remoting.Server;
 using System.Management.Automation.Tracing;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

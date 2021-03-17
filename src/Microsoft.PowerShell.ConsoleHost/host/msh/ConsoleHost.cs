@@ -3,28 +3,6 @@
 
 #pragma warning disable 1634, 1691
 
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Configuration;
-using System.Management.Automation.Host;
-using System.Management.Automation.Internal;
-using System.Management.Automation.Language;
-using System.Management.Automation.Remoting;
-using System.Management.Automation.Runspaces;
-using System.Management.Automation.Tracing;
-using System.Reflection;
-using System.Runtime;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading;
-using Microsoft.PowerShell.Commands;
-using Microsoft.PowerShell.Telemetry;
 #if LEGACYTELEMETRY
 using Microsoft.PowerShell.Telemetry.Internal;
 #endif

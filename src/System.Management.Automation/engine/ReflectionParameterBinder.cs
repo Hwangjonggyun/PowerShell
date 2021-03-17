@@ -1,12 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Concurrent;
-using System.Linq.Expressions;
-using System.Management.Automation.Internal;
-using System.Reflection;
-
 using Microsoft.PowerShell.Commands;
+using System.Management.Automation.Internal;
 
 namespace System.Management.Automation
 {

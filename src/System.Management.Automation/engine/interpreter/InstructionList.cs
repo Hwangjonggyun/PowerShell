@@ -15,11 +15,6 @@
 // Enables instruction counting and displaying stats at process exit.
 // #define STATS
 
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-
 namespace System.Management.Automation.Interpreter
 {
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1815:OverrideEqualsAndOperatorEqualsOnValueTypes")]

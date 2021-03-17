@@ -3,12 +3,8 @@
 
 using System.Management.Automation.Language;
 
-using Microsoft.Management.Infrastructure;
-
 namespace System.Management.Automation.Runspaces
 {
-    using System;
-    using System.Collections.ObjectModel;
     using Debug = System.Management.Automation.Diagnostics;
 
     /// <summary>

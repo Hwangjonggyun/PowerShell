@@ -4,14 +4,9 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56506
 
-using System;
-using Dbg = System.Management.Automation;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
 using System.Management.Automation;
 using System.Management.Automation.Provider;
-using System.Security;
+using Dbg = System.Management.Automation;
 
 namespace Microsoft.PowerShell.Commands
 {

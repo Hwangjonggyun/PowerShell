@@ -1,13 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Runspaces;
-using System.Runtime.Serialization;
 
 // Stops compiler from warning about unknown warnings
 #pragma warning disable 1634, 1691

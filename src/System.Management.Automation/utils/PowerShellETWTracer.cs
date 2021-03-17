@@ -3,11 +3,8 @@
 
 #if !UNIX
 
-using System.Globalization;
-using System.Management.Automation.Runspaces;
-using System.Text;
-using System.Diagnostics.Eventing;
 using System.Management.Automation.Internal;
+using System.Management.Automation.Runspaces;
 
 namespace System.Management.Automation.Tracing
 {

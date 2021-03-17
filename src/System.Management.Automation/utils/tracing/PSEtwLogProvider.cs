@@ -3,10 +3,7 @@
 
 #if !UNIX
 
-using System.Diagnostics.Eventing;
 using System.Management.Automation.Internal;
-using System.Text;
-using System.Collections.Generic;
 
 namespace System.Management.Automation.Tracing
 {

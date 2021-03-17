@@ -1,8 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Diagnostics.CodeAnalysis; // for fxcop
-
 namespace System.Management.Automation
 {
     /// <summary>

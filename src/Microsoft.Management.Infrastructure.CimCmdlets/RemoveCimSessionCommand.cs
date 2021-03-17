@@ -3,10 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Management.Automation;
 
 #endregion
 
@@ -217,27 +213,32 @@ namespace Microsoft.Management.Infrastructure.CimCmdlets
         private static readonly Dictionary<string, HashSet<ParameterDefinitionEntry>> parameters = new()
         {
             {
-                nameCimSession, new HashSet<ParameterDefinitionEntry> {
+                nameCimSession,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.CimSessionSet, true),
                                  }
             },
             {
-                nameComputerName, new HashSet<ParameterDefinitionEntry> {
+                nameComputerName,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.ComputerNameSet, true),
                                  }
             },
             {
-                nameId, new HashSet<ParameterDefinitionEntry> {
+                nameId,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.SessionIdSet, true),
                                  }
             },
             {
-                nameInstanceId, new HashSet<ParameterDefinitionEntry> {
+                nameInstanceId,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.InstanceIdSet, true),
                                  }
             },
             {
-                nameName, new HashSet<ParameterDefinitionEntry> {
+                nameName,
+                new HashSet<ParameterDefinitionEntry> {
                                     new ParameterDefinitionEntry(CimBaseCommand.NameSet, true),
                                  }
             },
@@ -248,11 +249,11 @@ namespace Microsoft.Management.Infrastructure.CimCmdlets
         /// </summary>
         private static readonly Dictionary<string, ParameterSetEntry> parameterSets = new()
         {
-            {   CimBaseCommand.CimSessionSet, new ParameterSetEntry(1, true)     },
-            {   CimBaseCommand.ComputerNameSet, new ParameterSetEntry(1)     },
-            {   CimBaseCommand.SessionIdSet, new ParameterSetEntry(1)     },
-            {   CimBaseCommand.InstanceIdSet, new ParameterSetEntry(1)     },
-            {   CimBaseCommand.NameSet, new ParameterSetEntry(1)     },
+            { CimBaseCommand.CimSessionSet, new ParameterSetEntry(1, true) },
+            { CimBaseCommand.ComputerNameSet, new ParameterSetEntry(1) },
+            { CimBaseCommand.SessionIdSet, new ParameterSetEntry(1) },
+            { CimBaseCommand.InstanceIdSet, new ParameterSetEntry(1) },
+            { CimBaseCommand.NameSet, new ParameterSetEntry(1) },
         };
         #endregion
     }

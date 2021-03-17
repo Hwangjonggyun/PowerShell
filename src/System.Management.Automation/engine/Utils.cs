@@ -1,35 +1,15 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
 using System.Management.Automation.Configuration;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
 using System.Management.Automation.Remoting;
 using System.Management.Automation.Runspaces;
 using System.Management.Automation.Security;
-using System.Numerics;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Security;
 #if !UNIX
-using System.Security.Principal;
 #endif
-using System.Text;
-using System.Threading;
 using Microsoft.PowerShell.Commands;
-using Microsoft.Win32;
-using Microsoft.Win32.SafeHandles;
 
 using TypeTable = System.Management.Automation.Runspaces.TypeTable;
 
@@ -1863,7 +1843,7 @@ namespace System.Management.Automation
 
             if (ExperimentalFeature.IsEnabled("PSAnsiRendering"))
             {
-                PSStyle psstyle = PSStyle.Instance;                
+                PSStyle psstyle = PSStyle.Instance;
                 switch (formatStyle)
                 {
                     case FormatStyle.Reset:

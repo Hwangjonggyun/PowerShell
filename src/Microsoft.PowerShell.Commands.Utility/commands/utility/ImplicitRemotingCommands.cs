@@ -1,23 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.IO;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Management.Automation.Language;
-using System.Management.Automation.Remoting;
-using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Xml;
-
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace Microsoft.PowerShell.Commands
@@ -1068,7 +1051,7 @@ namespace Microsoft.PowerShell.Commands
 
         private Dictionary<TKey, TValue> RehydrateDictionary<TKey, TValue>(
             string commandName,
-            PSObject deserializedObject, 
+            PSObject deserializedObject,
             string propertyName,
             Func<PSObject, TValue> valueRehydrator)
         {

@@ -1,11 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.ObjectModel;
 using System.Management.Automation.Internal;
-using System.Runtime.Serialization;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

@@ -4,14 +4,9 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56506
 
-using System.Collections.ObjectModel;
-using System.IO;
-using System.Management.Automation.Runspaces;
-using System.Management.Automation.Internal;
 using System.Management.Automation.Host;
-using System.Resources;
-using System.Diagnostics.CodeAnalysis; // for fxcop
-using System.Security.AccessControl;
+using System.Management.Automation.Internal;
+using System.Management.Automation.Runspaces;
 
 namespace System.Management.Automation.Provider
 {

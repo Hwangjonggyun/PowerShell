@@ -4,16 +4,8 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56506
 
-using System.Collections;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Management.Automation.Runspaces;
-using System.Text;
-using System.Resources;
-using System.Runtime.Serialization;
-using System.Reflection;
 using System.Management.Automation.Language;
-using System.Security.Permissions;
+using System.Management.Automation.Runspaces;
 
 namespace System.Management.Automation
 {

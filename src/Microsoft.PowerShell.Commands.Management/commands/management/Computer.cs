@@ -3,25 +3,6 @@
 
 #if !UNIX
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Net;
-using System.Runtime.Serialization;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading;
-using Microsoft.Management.Infrastructure;
-using Microsoft.Management.Infrastructure.Options;
-using Microsoft.Win32;
 using Dbg = System.Management.Automation;
 
 // FxCop suppressions for resource strings:

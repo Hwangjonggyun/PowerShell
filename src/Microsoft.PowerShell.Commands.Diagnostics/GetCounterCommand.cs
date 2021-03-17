@@ -1,15 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Management.Automation;
-using System.Resources;
-using System.Threading;
 using Microsoft.Powershell.Commands.GetCounter.PdhNative;
 using Microsoft.PowerShell.Commands.Diagnostics.Common;
 using Microsoft.PowerShell.Commands.GetCounter;
@@ -165,9 +156,10 @@ namespace Microsoft.PowerShell.Commands
         // With this dictionary, we can add special mapping if we find other special cases in the future.
         private readonly Dictionary<string, List<Tuple<char, char>>> _cultureAndSpecialCharacterMap =
             new()
+            {
                 {
-                   {
-                       FrenchCultureId, new List<Tuple<char, char>>()
+                    FrenchCultureId,
+                    new List<Tuple<char, char>>()
                                             {
                                                 // 'APOSTROPHE' to 'RIGHT SINGLE QUOTATION MARK'
                                                 new Tuple<char, char>((char)0x0027, (char)0x2019),
@@ -176,8 +168,8 @@ namespace Microsoft.PowerShell.Commands
                                                 // 'HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT' to 'RIGHT SINGLE QUOTATION MARK'
                                                 new Tuple<char, char>((char)0x275C, (char)0x2019),
                                             }
-                   }
-                };
+                }
+            };
 
         //
         // BeginProcessing() is invoked once per pipeline

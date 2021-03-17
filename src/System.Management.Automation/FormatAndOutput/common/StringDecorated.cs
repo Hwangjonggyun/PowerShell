@@ -3,7 +3,6 @@
 
 #nullable enable
 
-using System.Text.RegularExpressions;
 
 namespace System.Management.Automation.Internal
 {

@@ -3,15 +3,6 @@
 
 #if !UNIX
 
-using System;
-using System.ComponentModel;
-using System.Globalization;
-using System.Management.Automation;
-using System.Management.Automation.Host;
-using System.Management.Automation.Internal;
-using System.Security.Principal;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using ConsoleHandle = Microsoft.Win32.SafeHandles.SafeFileHandle;
 using Dbg = System.Management.Automation.Diagnostics;
 using WORD = System.UInt16;

@@ -13,9 +13,6 @@
  *
  * ***************************************************************************/
 
-using System.Reflection;
-using System.Runtime.CompilerServices;
-
 namespace System.Management.Automation.Interpreter
 {
     internal sealed class CreateDelegateInstruction : Instruction

@@ -2,14 +2,7 @@
 // Licensed under the MIT License.
 
 #if !UNIX
-using System;
-using System.Collections;
-using System.Reflection;
-using System.Globalization;
 using System.Management.Automation;
-using System.Diagnostics.CodeAnalysis;
-using System.DirectoryServices;
-using Dbg = System.Management.Automation.Diagnostics;
 
 namespace Microsoft.PowerShell
 {

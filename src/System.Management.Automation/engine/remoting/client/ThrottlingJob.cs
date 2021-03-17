@@ -1,12 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
 using System.Management.Automation.Remoting.Internal;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

@@ -1,13 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Management.Automation.Language;
-using System.Management.Automation.Subsystem;
-using System.Threading;
-using Xunit;
-
 namespace PSTests.Sequential
 {
     public class MyPredictor : ICommandPredictor

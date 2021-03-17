@@ -1,14 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Management.Automation.Language;
-using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace System.Management.Automation
 {
@@ -836,7 +829,7 @@ namespace System.Management.Automation
                                                 break;
                                             }
                                         }
-                                        
+
                                         if (lastAst is AttributeAst)
                                         {
                                             completionContext.ReplacementLength = replacementLength = 0;

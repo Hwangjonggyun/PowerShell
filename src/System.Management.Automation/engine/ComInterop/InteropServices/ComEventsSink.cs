@@ -3,8 +3,6 @@
 
 #nullable enable
 
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 using ComTypes = System.Runtime.InteropServices.ComTypes;
 
 namespace System.Management.Automation.InteropServices

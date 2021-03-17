@@ -13,8 +13,6 @@
  *
  * ***************************************************************************/
 
-using System.Collections.Generic;
-
 namespace System.Management.Automation.Interpreter
 {
 #nullable enable

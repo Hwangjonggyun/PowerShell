@@ -1,15 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.Management.Automation;
-using System.Management.Automation.Host;
-using System.Security;
-using System.Text;
-
 namespace Microsoft.PowerShell.Commands
 {
     /// <summary>

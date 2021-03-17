@@ -3,11 +3,6 @@
 
 #region Using directives
 
-using System;
-using System.Diagnostics;
-using System.Globalization;
-using System.Management.Automation;
-using Microsoft.Management.Infrastructure.Options;
 
 #endregion
 

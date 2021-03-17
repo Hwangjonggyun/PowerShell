@@ -1,10 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.IO;
-using System.Management.Automation;
-using System.Net.Http;
-
 namespace Microsoft.PowerShell.Commands
 {
     internal static class WebResponseObjectFactory

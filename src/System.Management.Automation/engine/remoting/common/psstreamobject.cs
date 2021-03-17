@@ -2,8 +2,6 @@
 // Licensed under the MIT License.
 
 using System.Management.Automation.Runspaces;
-using System.Text;
-using System.Threading;
 
 using Dbg = System.Management.Automation.Diagnostics;
 

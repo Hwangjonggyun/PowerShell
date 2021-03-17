@@ -2,8 +2,6 @@
 // Licensed under the MIT License.
 
 #region Using directives
-using System;
-using System.Management.Automation;
 
 #endregion
 

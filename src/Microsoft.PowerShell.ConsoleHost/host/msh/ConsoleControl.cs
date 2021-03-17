@@ -12,18 +12,6 @@
 // could do is diddle with the console buffer.
 #pragma warning disable 1634, 1691
 
-using System;
-using System.Text;
-using System.Runtime.InteropServices;
-using System.Management.Automation;
-using System.Management.Automation.Host;
-using System.Management.Automation.Internal;
-using System.ComponentModel;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Diagnostics;
-using Microsoft.Win32.SafeHandles;
-
 using ConsoleHandle = Microsoft.Win32.SafeHandles.SafeFileHandle;
 
 using WORD = System.UInt16;
@@ -35,7 +23,6 @@ using HDC = System.IntPtr;
 
 #endif
 
-using System.Diagnostics.CodeAnalysis;
 using Dbg = System.Management.Automation.Diagnostics;
 
 namespace Microsoft.PowerShell

@@ -3,15 +3,8 @@
 
 #pragma warning disable 1634, 1691
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Runspaces;
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Threading;
 
 namespace System.Management.Automation
 {

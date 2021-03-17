@@ -1,11 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections;
 using System.Management.Automation;
-using System.Reflection;
-using System.Resources;
 
 namespace Microsoft.PowerShell.Commands.Internal.Format
 {

@@ -1,15 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Management.Automation;
-
-using Microsoft.PowerShell;
-using Xunit;
-
 namespace PSTests.Parallel
 {
     public static class PSCommandLineParserTests

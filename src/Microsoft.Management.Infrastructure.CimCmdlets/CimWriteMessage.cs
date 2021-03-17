@@ -3,8 +3,6 @@
 
 #region Using directives
 
-using System;
-using Microsoft.Management.Infrastructure.Options;
 
 #endregion
 

@@ -3,13 +3,8 @@
 
 namespace System.Management.Automation.Runspaces
 {
-    using System;
-    using System.Collections;
-    using System.Collections.Generic;
-    using System.Collections.ObjectModel;
-    using System.Threading;
-    using Dbg = System.Management.Automation.Diagnostics;
     using System.Management.Automation.Internal;
+    using Dbg = System.Management.Automation.Diagnostics;
 
 #pragma warning disable 1634, 1691 // Stops compiler from warning about unknown warnings
 

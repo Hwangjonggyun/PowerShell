@@ -1,14 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System;
-using System.Collections.Generic;
-using System.Management.Automation;
-using System.Management.Automation.Internal;
-using System.Threading;
-
-using Newtonsoft.Json;
-
 namespace Microsoft.PowerShell.Commands
 {
     /// <summary>

@@ -4,23 +4,11 @@
 #pragma warning disable 1634, 1691
 #pragma warning disable 56523
 
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Globalization;
+using Microsoft.PowerShell;
+using Microsoft.PowerShell.Commands;
 using System.Management.Automation.Configuration;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Security;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-
-using Microsoft.PowerShell;
-using Microsoft.PowerShell.Commands;
-
 using DWORD = System.UInt32;
 
 namespace Microsoft.PowerShell
@@ -856,8 +844,6 @@ namespace Microsoft.PowerShell.Commands
 
 namespace System.Management.Automation
 {
-    using System.Security.Cryptography.Pkcs;
-
     /// <summary>
     /// Utility class for CMS (Cryptographic Message Syntax) related operations.
     /// </summary>

@@ -5,12 +5,9 @@
 // characters
 //#define TEST_MULTICELL_ON_SINGLE_CELL_LOCALE
 
-using System;
-using System.Collections.Specialized;
 using System.Management.Automation;
-using System.Management.Automation.Internal;
 using System.Management.Automation.Host;
-
+using System.Management.Automation.Internal;
 using Dbg = System.Management.Automation.Diagnostics;
 
 // interfaces for host interaction

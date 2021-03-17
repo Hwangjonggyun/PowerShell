@@ -14,12 +14,7 @@
 
 namespace Microsoft.PowerShell.Commands.Internal
 {
-    using System;
-    using System.Security;
-    using System.Runtime.InteropServices;
-    using System.Runtime.Versioning;
     using System.Management.Automation;
-    using System.Diagnostics.CodeAnalysis;
 
     /**
      * Win32 encapsulation for MSCORLIB.

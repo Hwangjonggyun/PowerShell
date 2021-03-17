@@ -7,10 +7,6 @@
  * like Exchange.
  */
 
-using System;
-using System.Security.Principal;
-using System.Diagnostics.CodeAnalysis;
-using System.Runtime.Serialization;
 using Microsoft.PowerShell;
 
 namespace System.Management.Automation.Remoting

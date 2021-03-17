@@ -1,10 +1,8 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
 using System.Management.Automation.Internal;
 using System.Management.Automation.Language;
-using System.Runtime.CompilerServices;
 
 namespace System.Management.Automation
 {

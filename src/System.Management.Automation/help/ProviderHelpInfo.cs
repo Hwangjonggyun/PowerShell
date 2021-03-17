@@ -1,9 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-using System.Collections;
-using System.Xml;
-
 namespace System.Management.Automation
 {
     /// <summary>
